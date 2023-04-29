@@ -1,0 +1,33 @@
+.phrase_container {
+    min-width: 180px;
+    max-width: 500px;
+    padding: 70px 33px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+    border-radius: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phrase_container p {
+    width: 386.52px;
+    height: 105px;
+
+    font-family: 'Digital Numbers';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #25063F;
+}
+@media screen and (max-width: 450px){
+    .phrase_container {
+        width: 80%;
+        height: 10%;
+        padding: 50px 30px;
+    }
+    .phrase_container p {
+        font-size: 18px;
+    }
+}

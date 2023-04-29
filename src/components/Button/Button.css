@@ -1,0 +1,12 @@
+.switch_btn {
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #25063f;
+    border: none;
+    border-radius: 50%;
+}

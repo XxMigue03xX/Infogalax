@@ -1,0 +1,49 @@
+.btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_app h1 {
+  width: 231px;
+  height: 41px;
+
+  font-family: 'Digital Numbers';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 6px #9F84C5;
+}
+.container_app p {
+  width: 304.84px;
+  height: 19px;
+
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+}
